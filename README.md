@@ -106,7 +106,7 @@ This project incorporates cybersecurity mechanisms to improve detection reliabil
 
 ## 👥 Team Structure
 
-### 👤 Deepanshu Singh – Team Lead & Project Coordinator(Deepfake Audio Detection Model and Model Training)
+### 👤 Deepanshu Singh – Team Lead & Project Coordinator (Deepfake Audio Detection Model and Model Training)
 - Project planning & coordination  
 - Deepfake audio model development  
 - Feature extraction (MFCC, Spectrograms)  
