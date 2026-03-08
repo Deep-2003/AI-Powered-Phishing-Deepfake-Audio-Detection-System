@@ -1,0 +1,45 @@
+2026-03-08 14:59:07,474 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-08 14:59:07,475 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-08 14:59:07,550 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-08 14:59:14,509 - WARNING -  * Debugger is active!
+2026-03-08 14:59:14,517 - INFO -  * Debugger PIN: 804-048-813
+2026-03-08 15:01:21,535 - INFO -  * Detected change in 'C:\\Users\\Hp\\Documents\\AI-Powered&Deepfake Audio System\\AI-Powered-Phishing-Deepfake-Audio-Detection-System\\backend\\app.py', reloading
+2026-03-08 15:01:21,538 - INFO -  * Detected change in 'C:\\Users\\Hp\\Documents\\AI-Powered&Deepfake Audio System\\AI-Powered-Phishing-Deepfake-Audio-Detection-System\\backend\\app.py', reloading
+2026-03-08 15:01:22,313 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-08 15:01:28,623 - WARNING -  * Debugger is active!
+2026-03-08 15:01:28,636 - INFO -  * Debugger PIN: 804-048-813
+2026-03-08 15:03:29,878 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-08 15:03:29,878 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-08 15:03:29,905 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-08 15:03:37,762 - WARNING -  * Debugger is active!
+2026-03-08 15:03:37,774 - INFO -  * Debugger PIN: 804-048-813
+2026-03-08 15:08:51,528 - INFO - 127.0.0.1 - - [08/Mar/2026 15:08:51] "GET / HTTP/1.1" 200 -
+2026-03-08 15:08:51,932 - INFO - 127.0.0.1 - - [08/Mar/2026 15:08:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-08 15:16:40,675 - INFO -  * Detected change in 'C:\\Users\\Hp\\Documents\\AI-Powered&Deepfake Audio System\\AI-Powered-Phishing-Deepfake-Audio-Detection-System\\backend\\app.py', reloading
+2026-03-08 15:16:40,677 - INFO -  * Detected change in 'C:\\Users\\Hp\\Documents\\AI-Powered&Deepfake Audio System\\AI-Powered-Phishing-Deepfake-Audio-Detection-System\\backend\\app.py', reloading
+2026-03-08 15:16:40,678 - INFO -  * Detected change in 'C:\\Users\\Hp\\Documents\\AI-Powered&Deepfake Audio System\\AI-Powered-Phishing-Deepfake-Audio-Detection-System\\backend\\app.py', reloading
+2026-03-08 15:16:42,050 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-08 15:17:18,739 - WARNING -  * Debugger is active!
+2026-03-08 15:17:18,754 - INFO -  * Debugger PIN: 804-048-813
+2026-03-08 15:19:07,803 - INFO -  * Detected change in 'C:\\Users\\Hp\\Documents\\AI-Powered&Deepfake Audio System\\AI-Powered-Phishing-Deepfake-Audio-Detection-System\\backend\\app.py', reloading
+2026-03-08 15:19:07,813 - INFO -  * Detected change in 'C:\\Users\\Hp\\Documents\\AI-Powered&Deepfake Audio System\\AI-Powered-Phishing-Deepfake-Audio-Detection-System\\backend\\app.py', reloading
+2026-03-08 15:19:07,814 - INFO -  * Detected change in 'C:\\Users\\Hp\\Documents\\AI-Powered&Deepfake Audio System\\AI-Powered-Phishing-Deepfake-Audio-Detection-System\\backend\\app.py', reloading
+2026-03-08 15:19:08,615 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-08 15:19:14,885 - WARNING -  * Debugger is active!
+2026-03-08 15:19:14,893 - INFO -  * Debugger PIN: 804-048-813
+2026-03-08 15:19:24,902 - INFO -  * Detected change in 'C:\\Users\\Hp\\Documents\\AI-Powered&Deepfake Audio System\\AI-Powered-Phishing-Deepfake-Audio-Detection-System\\backend\\app.py', reloading
+2026-03-08 15:19:24,904 - INFO -  * Detected change in 'C:\\Users\\Hp\\Documents\\AI-Powered&Deepfake Audio System\\AI-Powered-Phishing-Deepfake-Audio-Detection-System\\backend\\app.py', reloading
+2026-03-08 15:19:24,907 - INFO -  * Detected change in 'C:\\Users\\Hp\\Documents\\AI-Powered&Deepfake Audio System\\AI-Powered-Phishing-Deepfake-Audio-Detection-System\\backend\\app.py', reloading
+2026-03-08 15:19:25,651 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-08 15:19:33,988 - WARNING -  * Debugger is active!
+2026-03-08 15:19:34,013 - INFO -  * Debugger PIN: 804-048-813
+2026-03-08 15:41:52,713 - INFO -  * Detected change in 'C:\\Users\\Hp\\Documents\\AI-Powered&Deepfake Audio System\\AI-Powered-Phishing-Deepfake-Audio-Detection-System\\backend\\app.py', reloading
+2026-03-08 15:41:53,305 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-08 17:23:04,230 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-08 17:23:04,231 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-08 17:23:04,262 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-08 17:23:09,746 - WARNING -  * Debugger is active!
+2026-03-08 17:23:09,759 - INFO -  * Debugger PIN: 804-048-813
