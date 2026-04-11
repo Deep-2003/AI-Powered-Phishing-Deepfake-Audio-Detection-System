@@ -7,7 +7,16 @@ __pycache__/
 
 # Model files
 *.pkl
+ backend/security_audit.log
+backend/security_auditor.db
+backend/uploads/*
+!backend/uploads/.gitkeep
 
+# --- Machine Learning Files (Too big for GitHub) ---
+phishing_detection/models/*.pkl
+phishing_detection/models/*.h5
+phishing_detection/models/*.keras
+phishing_detection/dataset/*.csv
 # Large datasets
 *.csv
 *.zip

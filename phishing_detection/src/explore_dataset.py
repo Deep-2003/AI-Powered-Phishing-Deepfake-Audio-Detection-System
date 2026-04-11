@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load dataset
-df = pd.read_csv("../dataset/phishing_email.csv")
+df = pd.read_csv("../explore_dataset/phishing_email.csv")
 
 # Display first rows
 print("First 5 rows:")
