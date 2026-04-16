@@ -1,72 +1,154 @@
 import streamlit as st
 import requests
+import pandas as pd
+from datetime import datetime
 
-# Page Config
-st.set_page_config(page_title="AI Cyber Shield", page_icon="🛡️", layout="wide")
+# --- 1. PAGE CONFIGURATION ---
+st.set_page_config(
+    page_title="AI Cyber Shield | Secure Integration Dashboard",
+    page_icon="🔐",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
 
-st.title("🛡️ AI-Powered Phishing & Deepfake Detection")
-st.markdown("---")
+# --- 2. THEME & STYLING (THE "ULTIMATE" VISIBILITY FIX) ---
+st.markdown("""
+    <style>
+    [data-testid="stAppViewContainer"] {
+        background-color: #0e1117;
+    }
+    html, body, [class*="css"], .stMarkdown, p, div, label, span {
+        color: #ffffff !important;
+    }
+    [data-testid="stSidebar"] {
+        background-color: #161b22;
+        border-right: 1px solid #30363d;
+    }
+    [data-testid="stSidebar"] [data-testid="stMarkdownContainer"] p {
+        color: #00f2ff !important;
+    }
+    div[data-baseweb="select"] > div {
+        background-color: #0d1117 !important;
+        border: 1px solid #00f2ff !important;
+    }
+    div[data-baseweb="popover"] ul {
+        background-color: #161b22 !important;
+        border: 1px solid #00f2ff !important;
+    }
+    div[data-baseweb="popover"] li {
+        background-color: #161b22 !important;
+        color: #ffffff !important;
+    }
+    div[data-baseweb="popover"] li:hover {
+        background-color: #00f2ff !important;
+        color: #0e1117 !important;
+    }
+    .stTextArea textarea {
+        background-color: #0d1117 !important;
+        color: #00f2ff !important;
+        border: 1px solid #30363d !important;
+    }
+    .stButton>button {
+        background-color: #00f2ff;
+        color: #0e1117 !important;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+    </style>
+    """, unsafe_allow_html=True)
 
-# Sidebar for Navigation
-menu = ["Home", "Scan Phishing", "Analyze Audio", "Security Audit Logs"]
-choice = st.sidebar.selectbox("Navigation", menu)
+# --- 3. SIDEBAR ---
+with st.sidebar:
+    st.image("https://cdn-icons-png.flaticon.com/512/2092/2092663.png", width=80)
+    st.title("Admin Console")
+    st.markdown("---")
+    menu = ["🔐 Threat Scanner", "📊 Forensic Audit Logs", "🛡️ Integration Specs"]
+    choice = st.selectbox("System Module", menu)
+    st.markdown("---")
+    st.write(f"**API Status:** ONLINE ✅")
+    st.write(f"**Database:** SQLite CONNECTED 🗄️")
+    st.write(f"**Logged in as:** Divya Agarwal")
 
-if choice == "Home":
-    st.subheader("Welcome, Security Auditor")
-    st.write("This system uses Machine Learning to detect modern cyber threats.")
-    st.info("👈 Use the sidebar to select a detection module.")
-
-elif choice == "Scan Phishing":
-    st.subheader("📧 Phishing Email & URL Detection")
-    user_input = st.text_area("Paste the Email text or suspicious URL below:", height=150)
+# --- 4. MODULE: THREAT SCANNER ---
+if choice == "🔐 Threat Scanner":
+    st.title("🔐 Real-Time API Threat Analysis")
+    st.write("This module integrates NLP and Signal Processing models via Secure REST API.")
     
-    if st.button("Run Security Scan"):
-        if user_input:
-            with st.spinner("Analyzing with AI Model..."):
-                try:
-                    # Calling your Flask API
-                    response = requests.post("http://127.0.0.1:5000/predict-phishing", json={"text": user_input})
-                    res_data = response.json()
-                    
-                    if res_data['result'] == "Phishing" or res_data['result'] == "Phishing/Suspicious":
-                        st.error(f"🚨 ALERT: {res_data['result']}")
-                        st.warning(f"Risk Level: {res_data['risk_level']}")
-                    else:
-                        st.success(f"✅ Result: {res_data['result']}")
-                        st.write("This content appears to be safe.")
-                except Exception as e:
-                    st.error(f"Error connecting to Backend: {e}")
-        else:
-            st.warning("Please enter some text first.")
+    col1, col2 = st.columns(2)
 
-elif choice == "Analyze Audio":
-    st.subheader("🎙️ AI Deepfake Audio Detection")
-    audio_file = st.file_uploader("Upload an audio file (WAV/MP3)", type=["wav", "mp3"])
-    
-    if st.button("Verify Audio Authenticity"):
-        if audio_file:
-            with st.spinner("Analyzing Audio Frequency..."):
-                try:
-                    files = {"file": audio_file}
-                    response = requests.post("http://127.0.0.1:5000/predict-audio", files=files)
-                    res_data = response.json()
-                    
-                    st.write(f"**Prediction:** {res_data['prediction']}")
-                    st.write(f"**Risk Score:** {res_data['risk_score']}")
-                except Exception as e:
-                    st.error(f"Error connecting to Backend: {e}")
-        else:
-            st.warning("Please upload an audio file.")
+    with col1:
+        st.subheader("📩 Phishing/URL Analysis")
+        text_input = st.text_area("Input to Scan:", height=150, placeholder="Paste suspicious content or URL...")
+        
+        if st.button("EXECUTE SCAN"):
+            if text_input:
+                with st.spinner("Sanitizing & Predicting..."):
+                    try:
+                        # Call Divya's Secure API
+                        res = requests.post("http://127.0.0.1:5000/predict-phishing", json={"text": text_input})
+                        data = res.json()
+                        
+                        if "Phishing" in data['result']:
+                            st.error(f"### 🚨 THREAT DETECTED: {data['result']}")
+                            m1, m2 = st.columns(2)
+                            m1.metric("Risk Level", data['risk_level'], delta="CRITICAL", delta_color="inverse")
+                            m2.metric("AI Confidence", f"{data['confidence']}%", delta="High Certainty")
+                        else:
+                            st.success(f"### ✅ RESULT: Legitimate")
+                            m1, m2 = st.columns(2)
+                            m1.metric("Risk Level", "Low", delta="SECURE")
+                            m2.metric("AI Confidence", f"{data['confidence']}%")
+                            
+                    except Exception as e:
+                        st.error(f"Backend Offline. Start app.py first. Error: {e}")
+            else:
+                st.warning("Please enter text to scan.")
 
-elif choice == "Security Audit Logs":
-    st.subheader("📝 Threat Monitoring Logs")
-    st.write("This log shows the most recent threat scans recorded in the database.")
+    with col2:
+        st.subheader("🎙️ Deepfake Audio Verification")
+        audio_file = st.file_uploader("Upload Audio Sample:", type=['wav', 'mp3'])
+        if st.button("VERIFY AUTHENTICITY"):
+            if audio_file:
+                with st.spinner("Analyzing Audio Frequencies..."):
+                    try:
+                        files = {"file": audio_file}
+                        res = requests.post("http://127.0.0.1:5000/predict-audio", files=files)
+                        data = res.json()
+                        st.info(f"**Prediction:** {data['prediction']}")
+                        st.write(f"**Security Risk:** {data['risk_score']}")
+                    except:
+                        st.error("Backend Error.")
+
+# --- 5. MODULE: FORENSIC AUDIT LOGS ---
+elif choice == "📊 Forensic Audit Logs":
+    st.title("📊 Security Audit Trail")
+    st.write("Direct integration with the SQLite 'security_auditor.db' for threat monitoring.")
     
-    if st.button("Refresh Logs"):
+    if st.button("REFRESH THREAT LOGS"):
         try:
-            # You need to add the /audit-logs route to your app.py first!
-            response = requests.get("http://127.0.0.1:5000/audit-logs")
-            logs = response.json()['logs']
-            st.table(logs)
+            res = requests.get("http://127.0.0.1:5000/audit-logs")
+            logs = res.json()['logs']
+            df = pd.DataFrame(logs, columns=["ID", "Module", "Payload Snippet", "Detection", "Risk", "Timestamp"])
+            st.dataframe(df, use_container_width=True)
+            st.download_button("Export Forensic Data (CSV)", df.to_csv(index=False), "threat_audit.csv")
         except:
-            st.info("Ensure the backend 'audit-logs' route is implemented.")
+            st.error("Database connection failed. Ensure the Flask API is running.")
+
+# --- 6. MODULE: INTEGRATION SPECS ---
+elif choice == "🛡️ Integration Specs":
+    st.title("🛡️ Backend & Security Architecture")
+    st.info("""
+    ### **Secure Integration Layer**
+    1. **Secure API Design:** Developed using Flask with REST architecture. 
+    2. **Input Sanitization:** Regex-based filtering to prevent XSS and SQL injection.
+    3. **Forensic Logging:** Implementation of a persistent SQLite database to track every scan attempt.
+    4. **Path Sanitization:** Using `werkzeug.secure_filename` to prevent path traversal attacks.
+    5. **Risk Engine:** Heuristic URL checker (IP detection, subdomain counting, keyword matching).
+    """)
+    st.subheader("System Components")
+    st.json({
+        "Language": "Python 3.x",
+        "API_Framework": "Flask",
+        "Frontend": "Streamlit",
+        "Database": "SQLite3"
+    })

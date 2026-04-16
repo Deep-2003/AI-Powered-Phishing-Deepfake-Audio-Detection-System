@@ -37,3 +37,218 @@
 2026-04-12 02:44:27,824 - INFO - Scan Complete. Prediction: Phishing
 2026-04-12 02:44:27,825 - INFO - 127.0.0.1 - - [12/Apr/2026 02:44:27] "POST /predict-phishing HTTP/1.1" 200 -
 2026-04-12 02:44:33,345 - INFO - 127.0.0.1 - - [12/Apr/2026 02:44:33] "GET /audit-logs HTTP/1.1" 200 -
+2026-04-15 23:03:14,984 - ERROR - Model Loading Failed: [Errno 2] No such file or directory: 'C:\\Users\\Hp\\Documents\\AI-Powered&Deepfake Audio System\\AI-Powered-Phishing-Deepfake-Audio-Detection-System\\phishing_detection\\models\\phishing_model.pkl'
+2026-04-15 23:03:15,434 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-15 23:03:15,435 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-15 23:03:15,683 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-15 23:03:17,303 - ERROR - Model Loading Failed: [Errno 2] No such file or directory: 'C:\\Users\\Hp\\Documents\\AI-Powered&Deepfake Audio System\\AI-Powered-Phishing-Deepfake-Audio-Detection-System\\phishing_detection\\models\\phishing_model.pkl'
+2026-04-15 23:03:17,387 - WARNING -  * Debugger is active!
+2026-04-15 23:03:17,398 - INFO -  * Debugger PIN: 804-048-813
+2026-04-15 23:04:22,935 - INFO -  * Detected change in 'C:\\Users\\Hp\\anaconda\\Scripts\\streamlit-script.py', reloading
+2026-04-15 23:04:23,913 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-15 23:04:25,096 - ERROR - Model Loading Failed: [Errno 2] No such file or directory: 'C:\\Users\\Hp\\Documents\\AI-Powered&Deepfake Audio System\\AI-Powered-Phishing-Deepfake-Audio-Detection-System\\phishing_detection\\models\\phishing_model.pkl'
+2026-04-15 23:04:25,207 - WARNING -  * Debugger is active!
+2026-04-15 23:04:25,215 - INFO -  * Debugger PIN: 804-048-813
+2026-04-15 23:05:07,973 - INFO -  * Detected change in 'C:\\Users\\Hp\\anaconda\\Lib\\site-packages\\streamlit\\env_util.py', reloading
+2026-04-15 23:05:08,022 - INFO -  * Detected change in 'C:\\Users\\Hp\\anaconda\\Lib\\site-packages\\streamlit\\delta_generator.py', reloading
+2026-04-15 23:05:08,064 - INFO -  * Detected change in 'C:\\Users\\Hp\\anaconda\\Lib\\site-packages\\streamlit\\elements\\markdown.py', reloading
+2026-04-15 23:05:08,091 - INFO -  * Detected change in 'C:\\Users\\Hp\\anaconda\\Lib\\site-packages\\streamlit\\runtime\\metrics_util.py', reloading
+2026-04-15 23:05:08,209 - INFO -  * Detected change in 'C:\\Users\\Hp\\anaconda\\Lib\\site-packages\\streamlit\\runtime\\scriptrunner\\script_runner.py', reloading
+2026-04-15 23:05:08,260 - INFO -  * Detected change in 'C:\\Users\\Hp\\anaconda\\Lib\\site-packages\\streamlit\\runtime\\scriptrunner\\exec_code.py', reloading
+2026-04-15 23:05:08,302 - INFO -  * Detected change in 'C:\\Users\\Hp\\anaconda\\Lib\\threading.py', reloading
+2026-04-15 23:05:08,569 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-15 23:05:09,465 - ERROR - Model Loading Failed: [Errno 2] No such file or directory: 'C:\\Users\\Hp\\Documents\\AI-Powered&Deepfake Audio System\\AI-Powered-Phishing-Deepfake-Audio-Detection-System\\phishing_detection\\models\\phishing_model.pkl'
+2026-04-15 23:05:09,532 - WARNING -  * Debugger is active!
+2026-04-15 23:05:09,541 - INFO -  * Debugger PIN: 804-048-813
+2026-04-15 23:41:22,591 - INFO -  * Detected change in 'C:\\Users\\Hp\\anaconda\\Lib\\site-packages\\pandas\\io\\parsers\\readers.py', reloading
+2026-04-15 23:41:22,625 - INFO -  * Detected change in 'C:\\Users\\Hp\\anaconda\\Lib\\site-packages\\pandas\\io\\common.py', reloading
+2026-04-15 23:41:22,856 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-15 23:41:24,473 - ERROR - Model Loading Failed: Ran out of input
+2026-04-15 23:41:24,590 - WARNING -  * Debugger is active!
+2026-04-15 23:41:24,598 - INFO -  * Debugger PIN: 804-048-813
+2026-04-15 23:48:53,759 - INFO -  * Detected change in 'C:\\Users\\Hp\\Documents\\AI-Powered&Deepfake Audio System\\AI-Powered-Phishing-Deepfake-Audio-Detection-System\\phishing_detection\\src\\predict.py', reloading
+2026-04-15 23:48:53,762 - INFO -  * Detected change in 'C:\\Users\\Hp\\Documents\\AI-Powered&Deepfake Audio System\\AI-Powered-Phishing-Deepfake-Audio-Detection-System\\phishing_detection\\src\\predict.py', reloading
+2026-04-15 23:48:53,764 - INFO -  * Detected change in 'C:\\Users\\Hp\\Documents\\AI-Powered&Deepfake Audio System\\AI-Powered-Phishing-Deepfake-Audio-Detection-System\\phishing_detection\\src\\predict.py', reloading
+2026-04-15 23:48:53,764 - INFO -  * Detected change in 'C:\\Users\\Hp\\Documents\\AI-Powered&Deepfake Audio System\\AI-Powered-Phishing-Deepfake-Audio-Detection-System\\phishing_detection\\src\\preprocess.py', reloading
+2026-04-15 23:48:53,765 - INFO -  * Detected change in 'C:\\Users\\Hp\\Documents\\AI-Powered&Deepfake Audio System\\AI-Powered-Phishing-Deepfake-Audio-Detection-System\\phishing_detection\\src\\preprocess.py', reloading
+2026-04-15 23:48:53,767 - INFO -  * Detected change in 'C:\\Users\\Hp\\Documents\\AI-Powered&Deepfake Audio System\\AI-Powered-Phishing-Deepfake-Audio-Detection-System\\phishing_detection\\src\\preprocess.py', reloading
+2026-04-15 23:48:53,768 - INFO -  * Detected change in 'C:\\Users\\Hp\\Documents\\AI-Powered&Deepfake Audio System\\AI-Powered-Phishing-Deepfake-Audio-Detection-System\\phishing_detection\\src\\train_model.py', reloading
+2026-04-15 23:48:53,769 - INFO -  * Detected change in 'C:\\Users\\Hp\\Documents\\AI-Powered&Deepfake Audio System\\AI-Powered-Phishing-Deepfake-Audio-Detection-System\\phishing_detection\\src\\train_model.py', reloading
+2026-04-15 23:48:53,770 - INFO -  * Detected change in 'C:\\Users\\Hp\\Documents\\AI-Powered&Deepfake Audio System\\AI-Powered-Phishing-Deepfake-Audio-Detection-System\\phishing_detection\\src\\train_model.py', reloading
+2026-04-15 23:48:54,341 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-15 23:48:55,638 - ERROR - Model Loading Failed: Ran out of input
+2026-04-15 23:48:55,696 - WARNING -  * Debugger is active!
+2026-04-15 23:48:55,704 - INFO -  * Debugger PIN: 804-048-813
+2026-04-15 23:59:15,693 - INFO -  * Detected change in 'C:\\Users\\Hp\\Documents\\AI-Powered&Deepfake Audio System\\AI-Powered-Phishing-Deepfake-Audio-Detection-System\\backend\\app.py', reloading
+2026-04-15 23:59:15,697 - INFO -  * Detected change in 'C:\\Users\\Hp\\Documents\\AI-Powered&Deepfake Audio System\\AI-Powered-Phishing-Deepfake-Audio-Detection-System\\backend\\app.py', reloading
+2026-04-15 23:59:16,322 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-15 23:59:19,329 - WARNING -  * Debugger is active!
+2026-04-15 23:59:19,362 - INFO -  * Debugger PIN: 804-048-813
+2026-04-15 23:59:40,605 - INFO -  * Detected change in 'C:\\Users\\Hp\\Documents\\AI-Powered&Deepfake Audio System\\AI-Powered-Phishing-Deepfake-Audio-Detection-System\\backend\\app.py', reloading
+2026-04-15 23:59:40,607 - INFO -  * Detected change in 'C:\\Users\\Hp\\Documents\\AI-Powered&Deepfake Audio System\\AI-Powered-Phishing-Deepfake-Audio-Detection-System\\backend\\app.py', reloading
+2026-04-15 23:59:40,610 - INFO -  * Detected change in 'C:\\Users\\Hp\\Documents\\AI-Powered&Deepfake Audio System\\AI-Powered-Phishing-Deepfake-Audio-Detection-System\\backend\\app.py', reloading
+2026-04-15 23:59:41,000 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-16 00:03:53,416 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-16 00:03:53,417 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-16 00:03:53,463 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-16 00:03:54,638 - WARNING -  * Debugger is active!
+2026-04-16 00:03:54,648 - INFO -  * Debugger PIN: 804-048-813
+2026-04-16 00:07:06,252 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-16 00:07:06,252 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-16 00:07:06,316 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-16 00:07:07,111 - WARNING -  * Debugger is active!
+2026-04-16 00:07:07,118 - INFO -  * Debugger PIN: 804-048-813
+2026-04-16 00:13:37,053 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-16 00:13:37,053 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-16 00:13:37,107 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-16 00:13:38,071 - WARNING -  * Debugger is active!
+2026-04-16 00:13:38,078 - INFO -  * Debugger PIN: 804-048-813
+2026-04-16 00:20:10,155 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-16 00:20:10,155 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-16 00:20:10,183 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-16 00:20:11,136 - WARNING -  * Debugger is active!
+2026-04-16 00:20:11,143 - INFO -  * Debugger PIN: 804-048-813
+2026-04-16 00:43:25,617 - INFO - NumExpr defaulting to 4 threads.
+2026-04-16 00:43:30,176 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-16 00:43:30,176 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-16 00:43:30,215 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-16 00:43:31,899 - INFO - NumExpr defaulting to 4 threads.
+2026-04-16 00:43:36,424 - WARNING -  * Debugger is active!
+2026-04-16 00:43:36,436 - INFO -  * Debugger PIN: 804-048-813
+2026-04-16 00:45:49,125 - INFO -  * Detected change in 'C:\\Users\\Hp\\Documents\\AI-Powered&Deepfake Audio System\\AI-Powered-Phishing-Deepfake-Audio-Detection-System\\backend\\app.py', reloading
+2026-04-16 00:45:49,127 - INFO -  * Detected change in 'C:\\Users\\Hp\\Documents\\AI-Powered&Deepfake Audio System\\AI-Powered-Phishing-Deepfake-Audio-Detection-System\\backend\\app.py', reloading
+2026-04-16 00:45:49,134 - INFO -  * Detected change in 'C:\\Users\\Hp\\Documents\\AI-Powered&Deepfake Audio System\\AI-Powered-Phishing-Deepfake-Audio-Detection-System\\backend\\app.py', reloading
+2026-04-16 00:45:49,896 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-16 00:45:51,967 - INFO - NumExpr defaulting to 4 threads.
+2026-04-16 00:45:58,063 - WARNING -  * Debugger is active!
+2026-04-16 00:45:58,117 - INFO -  * Debugger PIN: 804-048-813
+2026-04-16 00:47:43,261 - INFO - NumExpr defaulting to 4 threads.
+2026-04-16 00:47:48,235 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-16 00:47:48,235 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-16 00:47:48,258 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-16 00:47:49,786 - INFO - NumExpr defaulting to 4 threads.
+2026-04-16 00:47:54,716 - WARNING -  * Debugger is active!
+2026-04-16 00:47:54,723 - INFO -  * Debugger PIN: 804-048-813
+2026-04-16 01:11:05,698 - INFO - NumExpr defaulting to 4 threads.
+2026-04-16 01:11:18,003 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-16 01:11:18,005 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-16 01:11:18,050 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-16 01:11:20,167 - INFO - NumExpr defaulting to 4 threads.
+2026-04-16 01:11:25,077 - WARNING -  * Debugger is active!
+2026-04-16 01:11:25,089 - INFO -  * Debugger PIN: 804-048-813
+2026-04-16 11:25:29,038 - INFO - NumExpr defaulting to 4 threads.
+2026-04-16 11:25:38,379 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-16 11:25:38,380 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-16 11:25:38,422 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-16 11:25:40,215 - INFO - NumExpr defaulting to 4 threads.
+2026-04-16 11:25:44,753 - WARNING -  * Debugger is active!
+2026-04-16 11:25:44,764 - INFO -  * Debugger PIN: 804-048-813
+2026-04-16 11:28:57,080 - INFO -  * Detected change in 'C:\\Users\\Hp\\Documents\\AI-Powered&Deepfake Audio System\\AI-Powered-Phishing-Deepfake-Audio-Detection-System\\backend\\app.py', reloading
+2026-04-16 11:28:59,080 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-16 11:40:40,941 - INFO - NumExpr defaulting to 4 threads.
+2026-04-16 11:40:44,721 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-16 11:40:44,722 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-16 11:40:44,748 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-16 11:40:46,039 - INFO - NumExpr defaulting to 4 threads.
+2026-04-16 11:40:49,601 - WARNING -  * Debugger is active!
+2026-04-16 11:40:49,608 - INFO -  * Debugger PIN: 804-048-813
+2026-04-16 11:54:18,680 - INFO - NumExpr defaulting to 4 threads.
+2026-04-16 11:54:34,182 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-16 11:54:34,183 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-16 11:54:34,213 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-16 11:54:35,493 - INFO - NumExpr defaulting to 4 threads.
+2026-04-16 11:54:42,782 - WARNING -  * Debugger is active!
+2026-04-16 11:54:42,797 - INFO -  * Debugger PIN: 804-048-813
+2026-04-16 11:55:39,253 - INFO -  * Detected change in 'C:\\Users\\Hp\\Documents\\AI-Powered&Deepfake Audio System\\AI-Powered-Phishing-Deepfake-Audio-Detection-System\\backend\\app.py', reloading
+2026-04-16 11:55:39,254 - INFO -  * Detected change in 'C:\\Users\\Hp\\Documents\\AI-Powered&Deepfake Audio System\\AI-Powered-Phishing-Deepfake-Audio-Detection-System\\backend\\app.py', reloading
+2026-04-16 11:55:39,256 - INFO -  * Detected change in 'C:\\Users\\Hp\\Documents\\AI-Powered&Deepfake Audio System\\AI-Powered-Phishing-Deepfake-Audio-Detection-System\\backend\\app.py', reloading
+2026-04-16 11:55:40,220 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-16 11:55:42,361 - INFO - NumExpr defaulting to 4 threads.
+2026-04-16 11:55:47,766 - WARNING -  * Debugger is active!
+2026-04-16 11:55:47,777 - INFO -  * Debugger PIN: 804-048-813
+2026-04-16 12:11:50,273 - INFO - NumExpr defaulting to 4 threads.
+2026-04-16 12:11:56,907 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-16 12:11:56,907 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-16 12:11:56,940 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-16 12:11:58,534 - INFO - NumExpr defaulting to 4 threads.
+2026-04-16 12:12:03,122 - WARNING -  * Debugger is active!
+2026-04-16 12:12:03,130 - INFO -  * Debugger PIN: 804-048-813
+2026-04-16 12:21:05,491 - INFO -  * Detected change in 'C:\\Users\\Hp\\Documents\\AI-Powered&Deepfake Audio System\\AI-Powered-Phishing-Deepfake-Audio-Detection-System\\phishing_detection\\src\\predict.py', reloading
+2026-04-16 12:21:05,492 - INFO -  * Detected change in 'C:\\Users\\Hp\\Documents\\AI-Powered&Deepfake Audio System\\AI-Powered-Phishing-Deepfake-Audio-Detection-System\\phishing_detection\\src\\preprocess.py', reloading
+2026-04-16 12:21:06,172 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-16 12:21:08,921 - INFO - NumExpr defaulting to 4 threads.
+2026-04-16 12:21:13,965 - WARNING -  * Debugger is active!
+2026-04-16 12:21:13,984 - INFO -  * Debugger PIN: 804-048-813
+2026-04-16 12:22:32,525 - INFO -  * Detected change in 'C:\\Users\\Hp\\Documents\\AI-Powered&Deepfake Audio System\\AI-Powered-Phishing-Deepfake-Audio-Detection-System\\backend\\app.py', reloading
+2026-04-16 12:22:32,527 - INFO -  * Detected change in 'C:\\Users\\Hp\\Documents\\AI-Powered&Deepfake Audio System\\AI-Powered-Phishing-Deepfake-Audio-Detection-System\\backend\\app.py', reloading
+2026-04-16 12:22:33,325 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-16 12:28:01,431 - INFO - NumExpr defaulting to 4 threads.
+2026-04-16 12:28:07,635 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-16 12:28:07,635 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-16 12:28:07,681 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-16 12:28:09,775 - INFO - NumExpr defaulting to 4 threads.
+2026-04-16 12:28:15,311 - WARNING -  * Debugger is active!
+2026-04-16 12:28:15,319 - INFO -  * Debugger PIN: 804-048-813
+2026-04-16 12:43:11,106 - INFO -  * Detected change in 'C:\\Users\\Hp\\anaconda\\Scripts\\streamlit-script.py', reloading
+2026-04-16 12:43:12,112 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-16 12:43:13,985 - INFO - NumExpr defaulting to 4 threads.
+2026-04-16 12:43:17,757 - WARNING -  * Debugger is active!
+2026-04-16 12:43:17,765 - INFO -  * Debugger PIN: 804-048-813
+2026-04-16 12:44:01,879 - INFO -  * Detected change in 'C:\\Users\\Hp\\anaconda\\Lib\\site-packages\\streamlit\\runtime\\scriptrunner\\script_runner.py', reloading
+2026-04-16 12:44:01,911 - INFO -  * Detected change in 'C:\\Users\\Hp\\anaconda\\Lib\\site-packages\\streamlit\\runtime\\scriptrunner\\script_cache.py', reloading
+2026-04-16 12:44:01,970 - INFO -  * Detected change in 'C:\\Users\\Hp\\anaconda\\Lib\\site-packages\\streamlit\\runtime\\scriptrunner\\magic.py', reloading
+2026-04-16 12:44:02,008 - INFO -  * Detected change in 'C:\\Users\\Hp\\anaconda\\Lib\\ast.py', reloading
+2026-04-16 12:44:02,628 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-16 12:44:04,134 - INFO - NumExpr defaulting to 4 threads.
+2026-04-16 12:44:09,940 - WARNING -  * Debugger is active!
+2026-04-16 12:44:09,950 - INFO -  * Debugger PIN: 804-048-813
+2026-04-16 12:48:01,763 - INFO -  * Detected change in 'C:\\Users\\Hp\\Documents\\AI-Powered&Deepfake Audio System\\AI-Powered-Phishing-Deepfake-Audio-Detection-System\\phishing_detection\\src\\explore_dataset.py', reloading
+2026-04-16 12:48:02,370 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-16 12:48:04,184 - INFO - NumExpr defaulting to 4 threads.
+2026-04-16 12:48:07,945 - WARNING -  * Debugger is active!
+2026-04-16 12:48:07,952 - INFO -  * Debugger PIN: 804-048-813
+2026-04-16 12:52:11,559 - INFO -  * Detected change in 'C:\\Users\\Hp\\anaconda\\Lib\\site-packages\\streamlit\\env_util.py', reloading
+2026-04-16 12:52:11,580 - INFO -  * Detected change in 'C:\\Users\\Hp\\anaconda\\Lib\\site-packages\\streamlit\\delta_generator.py', reloading
+2026-04-16 12:52:11,608 - INFO -  * Detected change in 'C:\\Users\\Hp\\anaconda\\Lib\\site-packages\\streamlit\\elements\\markdown.py', reloading
+2026-04-16 12:52:11,628 - INFO -  * Detected change in 'C:\\Users\\Hp\\anaconda\\Lib\\site-packages\\streamlit\\runtime\\metrics_util.py', reloading
+2026-04-16 12:52:11,633 - INFO -  * Detected change in 'C:\\Users\\Hp\\anaconda\\Lib\\site-packages\\streamlit\\runtime\\scriptrunner\\exec_code.py', reloading
+2026-04-16 12:52:11,676 - INFO -  * Detected change in 'C:\\Users\\Hp\\anaconda\\Lib\\threading.py', reloading
+2026-04-16 12:52:12,924 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-16 12:52:14,693 - INFO - NumExpr defaulting to 4 threads.
+2026-04-16 12:52:20,150 - WARNING -  * Debugger is active!
+2026-04-16 12:52:20,166 - INFO -  * Debugger PIN: 804-048-813
+2026-04-16 12:52:31,264 - INFO - 127.0.0.1 - - [16/Apr/2026 12:52:31] "POST /predict-phishing HTTP/1.1" 200 -
+2026-04-16 15:36:57,437 - INFO - NumExpr defaulting to 4 threads.
+2026-04-16 15:37:50,814 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-16 15:37:50,814 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-16 15:37:50,854 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-16 15:37:54,158 - INFO - NumExpr defaulting to 4 threads.
+2026-04-16 15:38:07,253 - WARNING -  * Debugger is active!
+2026-04-16 15:38:07,262 - INFO -  * Debugger PIN: 804-048-813
+2026-04-16 15:39:59,245 - INFO -  * Detected change in 'C:\\Users\\Hp\\anaconda\\Scripts\\streamlit-script.py', reloading
+2026-04-16 15:40:00,742 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-16 15:40:02,469 - INFO - NumExpr defaulting to 4 threads.
+2026-04-16 15:40:06,348 - WARNING -  * Debugger is active!
+2026-04-16 15:40:06,355 - INFO -  * Debugger PIN: 804-048-813
+2026-04-16 15:40:27,442 - INFO -  * Detected change in 'C:\\Users\\Hp\\anaconda\\Lib\\site-packages\\streamlit\\env_util.py', reloading
+2026-04-16 15:40:27,485 - INFO -  * Detected change in 'C:\\Users\\Hp\\anaconda\\Lib\\site-packages\\streamlit\\delta_generator.py', reloading
+2026-04-16 15:40:28,232 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-16 15:40:29,879 - INFO - NumExpr defaulting to 4 threads.
+2026-04-16 15:40:38,769 - WARNING -  * Debugger is active!
+2026-04-16 15:40:38,782 - INFO -  * Debugger PIN: 804-048-813
+2026-04-16 15:41:15,720 - INFO - 127.0.0.1 - - [16/Apr/2026 15:41:15] "POST /predict-phishing HTTP/1.1" 200 -
+2026-04-16 15:42:22,380 - INFO - 127.0.0.1 - - [16/Apr/2026 15:42:22] "GET /audit-logs HTTP/1.1" 200 -
