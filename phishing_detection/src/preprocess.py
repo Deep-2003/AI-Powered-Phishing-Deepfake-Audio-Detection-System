@@ -33,7 +33,7 @@ def clean_text(text):
 
 if __name__ == "__main__":
 
-    df = pd.read_csv("../dataset/phishing_email.csv")
+    df = pd.read_csv("E:\code\projects\AI-Powered-Phishing-Deepfake-Audio-Detection-System\phishing_detection\dataset\phishing_email.csv")
 
     print("Before Cleaning:")
     print(df['text_combined'].iloc[0])
