@@ -1,0 +1,39 @@
+2026-04-12 02:00:07,544 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-12 02:00:07,544 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-12 02:00:07,608 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-12 02:00:16,239 - WARNING -  * Debugger is active!
+2026-04-12 02:00:16,252 - INFO -  * Debugger PIN: 804-048-813
+2026-04-12 02:02:05,698 - INFO - 127.0.0.1 - - [12/Apr/2026 02:02:05] "GET / HTTP/1.1" 200 -
+2026-04-12 02:02:05,788 - INFO - 127.0.0.1 - - [12/Apr/2026 02:02:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-12 02:33:20,582 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-12 02:33:20,582 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-12 02:33:20,606 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-12 02:33:26,009 - WARNING -  * Debugger is active!
+2026-04-12 02:33:26,016 - INFO -  * Debugger PIN: 804-048-813
+2026-04-12 02:36:31,801 - INFO -  * Detected change in 'C:\\Users\\Hp\\anaconda\\Scripts\\streamlit-script.py', reloading
+2026-04-12 02:36:33,022 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-12 02:36:38,997 - WARNING -  * Debugger is active!
+2026-04-12 02:36:39,003 - INFO -  * Debugger PIN: 804-048-813
+2026-04-12 02:38:55,423 - INFO -  * Detected change in 'C:\\Users\\Hp\\anaconda\\Lib\\site-packages\\streamlit\\env_util.py', reloading
+2026-04-12 02:38:55,584 - INFO -  * Detected change in 'C:\\Users\\Hp\\anaconda\\Lib\\site-packages\\streamlit\\delta_generator.py', reloading
+2026-04-12 02:38:55,771 - INFO -  * Detected change in 'C:\\Users\\Hp\\anaconda\\Lib\\site-packages\\streamlit\\elements\\heading.py', reloading
+2026-04-12 02:38:55,953 - INFO -  * Detected change in 'C:\\Users\\Hp\\anaconda\\Lib\\site-packages\\streamlit\\runtime\\metrics_util.py', reloading
+2026-04-12 02:38:55,981 - INFO -  * Detected change in 'C:\\Users\\Hp\\anaconda\\Lib\\site-packages\\streamlit\\runtime\\scriptrunner\\script_runner.py', reloading
+2026-04-12 02:38:56,009 - INFO -  * Detected change in 'C:\\Users\\Hp\\anaconda\\Lib\\site-packages\\streamlit\\runtime\\scriptrunner\\exec_code.py', reloading
+2026-04-12 02:38:56,043 - INFO -  * Detected change in 'C:\\Users\\Hp\\anaconda\\Lib\\threading.py', reloading
+2026-04-12 02:38:57,610 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-12 02:39:05,177 - WARNING -  * Debugger is active!
+2026-04-12 02:39:05,192 - INFO -  * Debugger PIN: 804-048-813
+2026-04-12 02:42:24,796 - INFO - General text detected. Proceeding to NLP analysis
+2026-04-12 02:42:24,828 - INFO - Scan Complete. Prediction: Legitimate
+2026-04-12 02:42:24,829 - INFO - 127.0.0.1 - - [12/Apr/2026 02:42:24] "POST /predict-phishing HTTP/1.1" 200 -
+2026-04-12 02:43:50,539 - INFO - 127.0.0.1 - - [12/Apr/2026 02:43:50] "GET /audit-logs HTTP/1.1" 200 -
+2026-04-12 02:43:53,012 - INFO - 127.0.0.1 - - [12/Apr/2026 02:43:53] "GET /audit-logs HTTP/1.1" 200 -
+2026-04-12 02:43:53,184 - INFO - 127.0.0.1 - - [12/Apr/2026 02:43:53] "GET /audit-logs HTTP/1.1" 200 -
+2026-04-12 02:43:53,388 - INFO - 127.0.0.1 - - [12/Apr/2026 02:43:53] "GET /audit-logs HTTP/1.1" 200 -
+2026-04-12 02:44:27,797 - INFO - General text detected. Proceeding to NLP analysis
+2026-04-12 02:44:27,824 - INFO - Scan Complete. Prediction: Phishing
+2026-04-12 02:44:27,825 - INFO - 127.0.0.1 - - [12/Apr/2026 02:44:27] "POST /predict-phishing HTTP/1.1" 200 -
+2026-04-12 02:44:33,345 - INFO - 127.0.0.1 - - [12/Apr/2026 02:44:33] "GET /audit-logs HTTP/1.1" 200 -
